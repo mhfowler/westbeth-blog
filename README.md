@@ -25,4 +25,5 @@ pip install -r requirements.txt
 - create a .html file templates/pages for every page of your site
 - create layouts in templates/layouts which your pages use 
 - write css in /static
-- after you run build.sh, the url to see your pages is the relative path to your page from the templates/pages directory
+- whenever you want to see changes you made to the html of pages, run build.sh
+- after you run build.sh, the url to see a page is the relative path to the page from the templates/pages directory
