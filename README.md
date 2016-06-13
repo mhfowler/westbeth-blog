@@ -11,8 +11,6 @@ pip install -r requirements.txt
 
 # how to use
 
-### edit 
-
 ### build the site
 ```cd ~/Desktop/westbeth; ./build.sh```
 
@@ -21,3 +19,10 @@ pip install -r requirements.txt
 
 ### deploy code to github pages
 ```cd ~/Desktop/westbeth; ./deploy.sh```
+
+### how to make changes
+- create a .html file templates/pages for every page of your site
+- create layouts in templates/layouts which your pages use 
+- write css in /static
+
+The url to see your pages is the relative path to your page from the templates/pages directory.
