@@ -27,6 +27,6 @@ pip install -r requirements.txt
 
 ### where to write files
 - all pages in `templates` are rendered using jinja (http://jinja.pocoo.org/docs/dev/)
-- create a .html file `templates/pages` for every page of your site
+- create a .html file in `templates/pages` for every page of your site
 - create layouts in `templates/layouts` which your pages use 
 - write css in `static`
