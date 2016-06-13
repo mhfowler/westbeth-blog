@@ -21,8 +21,8 @@ pip install -r requirements.txt
 ```cd ~/Desktop/westbeth; ./deploy.sh```
 
 ### how to make changes
+- pages are rendered using jinja (http://jinja.pocoo.org/docs/dev/)
 - create a .html file templates/pages for every page of your site
 - create layouts in templates/layouts which your pages use 
 - write css in /static
-
-The url to see your pages is the relative path to your page from the templates/pages directory.
+- after you run build.sh, the url to see your pages is the relative path to your page from the templates/pages directory
