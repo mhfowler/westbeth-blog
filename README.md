@@ -26,7 +26,7 @@ pip install -r requirements.txt
 - the url to see a page is the relative path to the page from the templates/pages directory
 
 ### where to write files
-- pages are rendered using jinja (http://jinja.pocoo.org/docs/dev/)
-- create a .html file templates/pages for every page of your site
-- create layouts in templates/layouts which your pages use 
-- write css in /static
+- all pages in `templates` are rendered using jinja (http://jinja.pocoo.org/docs/dev/)
+- create a .html file `templates/pages` for every page of your site
+- create layouts in `templates/layouts` which your pages use 
+- write css in `static`
