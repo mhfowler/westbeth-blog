@@ -21,9 +21,9 @@ pip install -r requirements.txt
 ```cd ~/Desktop/westbeth; ./deploy.sh```
 
 ### how to make changes
-- whenever you want to see changes you made to the html of pages, run build.sh
-- and then run run.sh, and navigate to see your pages
-- the url to see a page is the relative path to the page from the templates/pages directory
+- whenever you want to see changes you made to the html of pages, run `./build.sh`
+- and then `./run.sh`, and navigate in the browser to see your pages
+- the url to see a page is the relative path to the page from the `templates/pages` directory
 
 ### where to write files
 - all pages in `templates` are rendered using jinja (http://jinja.pocoo.org/docs/dev/)
