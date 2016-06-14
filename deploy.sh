@@ -2,4 +2,5 @@
 ./build.sh
 git add -A
 git commit -m "build commit"
-git push origin master:gh-pages
+git subtree push --prefix dist origin gh-pages
+
