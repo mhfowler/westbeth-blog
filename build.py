@@ -4,7 +4,7 @@ import jinja2
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
 PAGES_DIR = os.path.join(PROJECT_PATH, 'templates/pages')
-OUTPUT_DIR = os.path.join(PROJECT_PATH)
+OUTPUT_DIR = os.path.join(PROJECT_PATH, 'dist')
 
 
 def build_site(pages_dir, output_dir):
