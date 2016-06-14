@@ -7,7 +7,7 @@ cd ~/Desktop
 git clone <your forked repository> 
 cd ~/Desktop/westbeth
 pip install -r requirements.txt
-edit repo_name in vars.json to be the name of your repository or empty if you are using username.github.io
+# edit repo_name in vars.json to be the name of your repository or empty if you are using username.github.io
 ```
 
 # how to use
