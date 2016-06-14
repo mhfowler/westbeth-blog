@@ -7,6 +7,7 @@ cd ~/Desktop
 git clone <your forked repository> 
 cd ~/Desktop/westbeth
 pip install -r requirements.txt
+npm install
 # edit repo_name in vars.json to be the name of your repository or empty if you are using username.github.io
 ```
 
@@ -17,6 +18,9 @@ pip install -r requirements.txt
 
 ### run a local server to view your site
 ```cd ~/Desktop/westbeth; ./run.sh```
+
+### watch for local changes and rebuild whenever something changes 
+```cd ~/Desktop/westbeth; ./watch.sh```
 
 ### deploy code to github pages
 ```cd ~/Desktop/westbeth; ./deploy.sh```
